@@ -259,7 +259,6 @@ public class mainEntry {
 		Stack<Integer> st = new Stack<Integer>();
 //		FibonacciHeap abc = new FibonacciHeap();
 //		FibonacciHeap<Integer> myHeap = new FibonacciHeap<Integer>();
-		org
 
 	}
 }
