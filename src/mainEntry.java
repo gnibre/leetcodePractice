@@ -38,6 +38,7 @@ import non.IsRepeatString;
 import other.BitOperation;
 import other.GuessWord;
 import other.Tests;
+import other.hashmapImpTest;
 import other.synchronizeTest;
 
 import codes.AToI;
@@ -255,10 +256,14 @@ public class mainEntry {
 				return -1;
 			}
 		};
+		HashMap<String,String> hm = new HashMap<String,String>(); 
 		PriorityQueue<Integer> pq = new PriorityQueue<Integer>(10,cmpImp);
 		Stack<Integer> st = new Stack<Integer>();
 //		FibonacciHeap abc = new FibonacciHeap();
 //		FibonacciHeap<Integer> myHeap = new FibonacciHeap<Integer>();
+		
+		hashmapImpTest hit = new hashmapImpTest();
+		hit.gotest();
 
 	}
 }
